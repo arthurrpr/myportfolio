@@ -1,2 +1,2 @@
 # Welcome to my personal portfolio!
-dev by Arthur Risso
+dev by <a href="https://github.com/arthurrpr">Arthur Risso</a>
