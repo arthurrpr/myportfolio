@@ -1,0 +1,108 @@
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+section #left {
+    display: flex;
+    flex-direction: column;
+}
+
+section #left .introduction {
+    display: flex;
+
+    margin-top: 4rem;
+}
+
+section #left .introduction .introduction-text {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+section #left .introduction .introduction-text h1 {
+    color: var(--black);
+    font-weight: 800;
+    font-size: 3.5rem;
+
+    width: 33vw;
+    margin-left: 2rem;
+}
+span {
+    color: var(--blue);
+}
+section #left .introduction .introduction-text p {
+    color: var(--gray);
+    font-weight: 500;
+    font-size: 1.1rem;
+
+    margin-bottom: 2rem;
+    width: 25vw;
+}
+
+section article .introduction-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+
+    margin-top: 6.5rem;
+}
+section article .introduction-icons img {
+    width: 25px;
+    height: 25px;
+}
+
+section #left .tecnologies {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    margin-left: 3.5rem;
+    margin-bottom: 4rem;
+}
+section #left .tecnologies p {
+    color: var(--black);
+    font-weight: 800;
+    font-size: 0.9rem;
+}
+section #left .tecnologies .line {
+    width: 0.1vw;
+    height: 3.5vh;
+
+    background-color: var(--black);
+    border-radius: 10px;
+}
+
+section #left .tecnologies-icons {
+    display: flex;
+    gap: 1.5rem;
+}
+section #left .tecnologies-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+section #left .scroll {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    color: var(--gray);
+    font-weight: 600;
+
+    margin-left: 3.5rem;
+}
+
+section #left .scroll img.mouse {
+    width: 25px;
+}
+
+section #right img {
+    width: 600px;
+    height: 600px;
+}
